@@ -28,5 +28,8 @@ ul{
 }
 @keyframes image {
     0%   {transform: scale(1);  } 
-    100%  {transform: scale(1.25);}
-} 
+    100%  {transform: scale(1.25); }
+}
+.start{
+    font-size: 15px; 
+}
