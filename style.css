@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(30, 30, 30);)
+    background-color: rgb(30, 30, 30);
 }
 h1{
     font-size: 50px; color: rgb(128, 130, 132);
@@ -33,3 +33,12 @@ ul{
 .start{
     font-size: 15px; 
 }
+@media screen and (max-width:600px) {
+    body{font-size: 16px; 
+    line-height: 1.5;}
+    img{
+        max-width: 100%; height: auto;
+    }
+    h1,h2{ font-size: 1,2em; margin: 10px;} button{ width: 100%; padding: 10px; font-size: 1em;}
+    desctop-only{ display: none;}
+ }
